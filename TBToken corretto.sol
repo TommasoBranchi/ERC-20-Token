@@ -1,7 +1,7 @@
 pragma solidity ^0.7.1;
-import "./ITBToken.sol";
+import "./IERC20Token.sol";
 
-contract TBToken is ITBToken
+contract ERC20Token is IERC20Token
 {
   mapping (address => uint256) private _balances;
 
